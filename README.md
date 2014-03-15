@@ -8,8 +8,8 @@ cd browserify-external-bundle-example
 npm install
 grunt
 grunt connet
+open http://0.0.0.0:1337/
 
-# open your browser http://0.0.0.0:1337/
 # show console log
 # --------------------------------------
 # main.js jquery version is 2.1.0
