@@ -14,7 +14,7 @@ grunt connet
 # --------------------------------------
 # main.js jquery version is 2.1.0
 # app.js jquery version is 2.1.0
-# lib.js jquery version is 2.1.0
+# lib.js angular version is 1.2.10
 # --------------------------------------
 ```
 

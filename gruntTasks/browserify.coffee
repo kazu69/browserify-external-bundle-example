@@ -21,4 +21,11 @@ module.exports = ->
       shim:
         jQuery:
           path: 'node_modules/jquery/dist/jquery.min.js'
-          exports: 'jquery'
+          exports: '$'
+        angular:
+          path: 'node_modules/angular/lib/angular.min.js'
+          exports: 'angular'
+          depends:
+            jquery: '$'
+
+

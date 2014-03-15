@@ -1,9 +1,9 @@
-var $ = require('jquery');
+var angular = require('angular');
 
-libjQueryVersion = function() {
-  console.log('lib.js jquery version is ' + $().jquery);
+libAngularVersion = function() {
+  console.log('lib.js angular version is ' + angular.version.full);
 }
 
 $(function() {
-  libjQueryVersion();
+  libAngularVersion();
 });
